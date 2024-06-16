@@ -1,0 +1,23 @@
+{
+  "name": "tokyo100km",
+  "version": "1.0.0",
+  "description": "東京近郊の鉄道駅の乗降客数と周辺店舗推定数から算出した各駅のスコアマップです。",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "sanskruthiya",
+  "license": "ISC",
+  "devDependencies": {
+    "@maplibre/maplibre-gl-geocoder": "^1.5.0",
+    "css-loader": "^7.1.2",
+    "file-loader": "^6.2.0",
+    "maplibre-gl": "^4.3.2",
+    "pmtiles": "^3.0.6",
+    "style-loader": "^4.0.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
